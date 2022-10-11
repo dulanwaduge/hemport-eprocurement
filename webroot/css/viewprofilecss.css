@@ -1,0 +1,139 @@
+html {
+    width: 1650px;
+    min-width: 1650px;
+    height: 2560px;
+    position: fixed;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+input,
+button,
+select {
+    border: 0;
+    outline: none;
+}
+img {
+    width: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 2px solid #eee;
+}
+.header .main {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav li {
+    margin-left: 25px;
+}
+.header .nav .login {
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: #88a80d;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.page-notification {
+    background: none;
+    padding: 13px 0;
+    margin-bottom: 20px
+}
+
+.page-notification.page-notification2 {
+    margin-bottom: 0
+}
+
+.breadcrumb>.active {
+    color: #88A80D;
+}
+
+.breadcrumb {
+    background: none;
+    padding: 0;
+    margin: 0
+}
+
+.breadcrumb a {
+    color: #88A80D;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    color: white;
+    content: ">";
+    font-size: 17px;
+    line-height: 1;
+    padding: 0 4px;
+    padding-right: 8px
+}
+
+.right {
+    margin-top: 45px;
+    margin-right: 390px;
+    float: right;
+    background: #C7CCB9;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+}
+
+.right .company-name {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 65px;
+}
+
+.right .company-location {
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.right .company-description{
+    text-align: center;
+}
+
+.about-info {
+    background: #88A80D;
+    width: 1500px;
+    margin-left: 75px;
+    color: white;
+    border-radius: 20px;
+}
+
+.about-info .about-title {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.about-info .about-description {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
